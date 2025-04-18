@@ -1,4 +1,4 @@
-# 🏡 Istanbul Airbnb Price Analysis & Price Estimator App
+# Istanbul Airbnb Price Analysis & Price Estimator App
 
 This project explores Airbnb listing prices in Istanbul using real-world data from Inside Airbnb. It includes data cleaning, feature engineering, exploratory data analysis (EDA), and machine learning modeling — all presented in a well-documented Jupyter notebook.  
 
@@ -6,7 +6,7 @@ In addition, a **Streamlit-powered app** has been built to let users interactive
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 airbnb-istanbul-price-analysis/
@@ -23,7 +23,7 @@ airbnb-istanbul-price-analysis/
 
 ---
 
-## 🧠 Project Goals
+## Project Goals
 
 - Clean and prepare Istanbul Airbnb listing data
 - Explore factors affecting nightly price
@@ -33,15 +33,15 @@ airbnb-istanbul-price-analysis/
 
 ---
 
-## 🚀 Live App Demo
+## Live App Demo
 
-🎯 Try the interactive version of this project in the Streamlit app:
+Try the interactive version of this project in the Streamlit app:
 
-[📍 Istanbul Airbnb Price Estimator →](./streamlit_app/README.md)
+[Istanbul Airbnb Price Estimator →](./streamlit_app/README.md)
 
 ---
 
-## 📊 Tools & Tech Used
+## Tools & Tech Used
 
 - `pandas`, `numpy`, `matplotlib`, `seaborn`
 - `scikit-learn`, `joblib`
@@ -50,7 +50,7 @@ airbnb-istanbul-price-analysis/
 
 ---
 
-## 📁 Dataset Source
+## Dataset Source
 
 This project is based on publicly available data from **Inside Airbnb**:
 
@@ -58,7 +58,7 @@ This project is based on publicly available data from **Inside Airbnb**:
 
 ---
 
-## 🙋 About Me
+## About Me
 
 I'm Mustafa, a data analytics graduate student at UTC who is passionate about combining behavioral psychology and data science to build smart, human-centered solutions.  
 
