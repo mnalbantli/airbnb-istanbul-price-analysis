@@ -4,6 +4,21 @@ This project explores Airbnb listing prices in Istanbul using real-world data fr
 
 In addition, a **Streamlit-powered app** has been built to let users interactively predict nightly prices based on listing features.
 
+# 🏡 Istanbul Airbnb Price Estimator App
+
+This Streamlit app predicts the nightly price of an Airbnb listing in Istanbul based on:
+
+- Room Type
+- Minimum Nights
+- Review Score
+- Superhost Status
+- Instant Bookability
+- District
+
+The model is trained with real-world data from Inside Airbnb and hosted via Hugging Face Hub.
+
+👉 [Live App]([https://airbnb-istanbul-price.streamlit.app/])
+
 ---
 
 ## Project Structure
