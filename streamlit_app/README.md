@@ -1,100 +1,71 @@
-# Airbnb Istanbul Price Analysis
+# 🏡 Istanbul Airbnb Price Analysis & Price Estimator App
 
-Understanding what drives Airbnb prices in Istanbul — from location and room type to host behavior and guest reviews.
+This project explores Airbnb listing prices in Istanbul using real-world data from Inside Airbnb. It includes data cleaning, feature engineering, exploratory data analysis (EDA), and machine learning modeling — all presented in a well-documented Jupyter notebook.  
 
----
-
-## Project Overview
-
-This project analyzes Airbnb listings in Istanbul to uncover the main pricing drivers.  
-Using Python and visualization tools, I explored patterns in review scores, location, host status, and more.  
-The project ends with predictive modeling and marketing insights.
+In addition, a **Streamlit-powered app** has been built to let users interactively predict nightly prices based on listing features.
 
 ---
 
-## Key Questions
-
-- What are the key factors that impact nightly prices?
-- How do location, room type, and review score influence pricing?
-- Can we predict a listing’s price using machine learning?
-- What can hosts do to improve their listing performance?
-
----
-
-## Tools & Technologies
-
-`Python` • `Pandas` • `Seaborn` • `Folium` • `Scikit-learn` • `Matplotlib` • `GeoJSON` • `Google Colab`
-
----
-
-## Project Highlights
-
-- Exploratory Data Analysis on room types, host types, min nights, and more
-- Geospatial visualization using Folium maps
-- Predictive modeling with Linear Regression and Random Forest
-- Outlier detection using IQR
-- Marketing strategy recommendations based on data insights
-
----
-
-## Interactive Maps
-
-- Choropleth map of average price by district  
-- Heatmap showing review score density  
-- Composite heatmap combining price + reviews + booking flexibility
-
----
-
-## Model Performance
-
-| Model             | RMSE | MAE  |
-|------------------|------|------|
-| Linear Regression | 0.53 | 0.42 |
-| Random Forest     | 0.53 | 0.41 |
-
----
-
-## Repository Structure
-
-## Repository Structure
+## 📂 Project Structure
 
 ```
 airbnb-istanbul-price-analysis/
-├── data/
-│   └── listings_sample.csv, calendar_sample.csv, reviews_sample.csv
-├── notebooks/
-│   └── airbnb_analysis.ipynb
-├── visuals/
-│   └── All charts and map screenshots
-├── README.md
+│
+├── datasets/                # Raw CSV files
+├── notebooks/               # EDA, modeling, feature importance
+│   └── analysis.ipynb
+├── streamlit_app/           # Mini app folder
+│   ├── app.py               # Streamlit application
+│   └── README.md            # App-specific documentation
+├── rf_airbnb_model.pkl      # Trained Random Forest model (optional in repo)
+├── README.md                # Project documentation (this file)
 ```
 
 ---
 
-## Strategy & Insights
+## 🧠 Project Goals
 
-From host features to booking policies and location effects, this project explores actionable insights to guide:
+- Clean and prepare Istanbul Airbnb listing data
+- Explore factors affecting nightly price
+- Visualize relationships (room type, review score, location)
+- Build a regression model to predict prices
+- Deploy a lightweight app for real-time predictions
 
-- 💰 Price optimization
-- 😊 Guest satisfaction strategies
-- 📍 Listing positioning in competitive neighborhoods
+---
 
-These insights are not just technical — they reflect a real-world marketing perspective on user behavior and value perception.
+## 🚀 Live App Demo
+
+🎯 Try the interactive version of this project in the Streamlit app:
+
+[📍 Istanbul Airbnb Price Estimator →](./streamlit_app/README.md)
+
+---
+
+## 📊 Tools & Tech Used
+
+- `pandas`, `numpy`, `matplotlib`, `seaborn`
+- `scikit-learn`, `joblib`
+- `folium`, `Streamlit`
+- Model hosted on [Hugging Face](https://huggingface.co/mnalbantli/airbnb-istanbul-model)
+
+---
+
+## 📁 Dataset Source
+
+This project is based on publicly available data from **Inside Airbnb**:
+
+🔗 [https://insideairbnb.com/get-the-data.html](https://insideairbnb.com/get-the-data.html)
 
 ---
 
 ## 🙋 About Me
 
-I’m **Mustafa** — a data analytics M.S. student at UTC with a background in marketing and a passion for understanding behavior through data.
+I'm Mustafa, a data analytics graduate student at UTC who is passionate about combining behavioral psychology and data science to build smart, human-centered solutions.  
 
-I’m currently building my portfolio with projects that connect data, strategy, and human psychology. My long-term goal is to **design growth strategies that are not only data-driven but human-aware**.
-
-📫 [LinkedIn](https://www.linkedin.com/in/mustafanalbantli/)
-
----
-
-## ⭐️ Show Your Support
-
-If you find this project helpful or inspiring, consider giving it a ⭐️ or reach out to discuss collaboration or feedback!
+- 🔗 [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME)
+- 💻 [GitHub](https://github.com/YOUR-GITHUB-USERNAME)
 
 ---
+
+> If you like this project, feel free to ⭐ star the repo or share it!  
+> Built with ❤️ for portfolio, growth, and impact.
