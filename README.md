@@ -83,15 +83,6 @@ These insights are not just technical — they reflect a real-world marketing pe
 
 ---
 
-## Next Steps
-
-- 🚀 Deploy a Streamlit app for live price prediction  
-- 📅 Add time-series modeling for calendar price trends  
-- 💬 Extend with review sentiment analysis (NLP)  
-- 📌 Convert notebook into modular scripts and pipelines
-
----
-
 ## 🙋 About Me
 
 I’m **Mustafa** — a data analytics M.S. student at UTC with a background in marketing and a passion for understanding behavior through data.
